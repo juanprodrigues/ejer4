@@ -10,5 +10,22 @@ package entidades;
  * @author JuanPC
  */
 public class Pato {
+    private String name;
+
+    public Pato() {
+    }
+
+    public Pato(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
     
+          
 }
