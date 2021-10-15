@@ -15,7 +15,11 @@ public class EjerGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Caballo c1 = new Caballo();
+        c1.setNombre("pepe");
+        System.out.println("NOmbre de caballo: "+ c1.getNombre());
+// TODO code application logic here
     }
-    
+
 }
